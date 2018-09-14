@@ -1,7 +1,6 @@
 import pandas as
 from arcgis import GIS
 
-gis = GIS('https://ej.maps.arcgis.com', 'kazunari_takaki', 'rock0001')
+gis = GIS('http://hoge', 'hoge', 'fuga')
 
 item_list = gis.content.search('sample')
-
